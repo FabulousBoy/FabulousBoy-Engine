@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{8d198ee5-113d-40cf-9301-85dfc4488191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{23926dbe-13cb-487b-ab98-e0f232ebdf5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{a9a75a3b-0dce-4d52-8f8e-1488afcaa1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State\MainMenu">
+      <UniqueIdentifier>{7f7d76c7-af32-4f43-adac-b256532e126f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bindings">
+      <UniqueIdentifier>{d8d6c6b9-0b4e-45eb-9c83-cae9ba5de2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bindings\Bindings">
+      <UniqueIdentifier>{a63c8775-eed7-4b8d-a33d-5936ad0adc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bindings\Bindings\KeyBoard">
+      <UniqueIdentifier>{72bf8fd3-d715-4a1f-b94f-8daeb53f77b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bindings\Bindings\MousePad">
+      <UniqueIdentifier>{b2001afe-a4f5-4330-af63-234f8c20054a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowClass.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>State\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="BindReader.cpp">
+      <Filter>Bindings\Bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBindings.cpp">
+      <Filter>Bindings\Bindings\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePad.cpp">
+      <Filter>Bindings\Bindings\MousePad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowClass.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>State\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="BindReader.h">
+      <Filter>Bindings\Bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBindings.h">
+      <Filter>Bindings\Bindings\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePad.h">
+      <Filter>Bindings\Bindings\MousePad</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
